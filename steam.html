@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steam Status Setter</title>
+<meta name="description"
+  content="Set your Steam status to Online, Away, Invisible, Busy, Looking to Play, or Looking to Trade with a single click.">
+<link rel="stylesheet" href="./dist.css">
+<link rel="icon" href="./icon.png">
+</head>
+<div
+  class="relative overflow-hidden flex h-screen w-screen items-center justify-center bg-gradient-to-t from-gray-900 to-gray-700  text-neutral-200">
+  <img class="absolute left-0 top-0 w-full h-full opacity-25 object-cover" src="bg.jpg" />
+  <div class="flex flex-col items-center justify-center rounded-xl bg-gray-900 px-14 py-12 z-10">
+    <div class="flex flex-row items-center space-x-4">
+      <img src="icon.png" class="w-12 h-12">
+      <h1>Steam Status Setter</h1>
+    </div>
+    <div class="w-full border-b border-gray-700 my-6"></div>
+    <div class="grid grid-cols-2 gap-y-4 gap-x-6 mx-4">
+      <a class="status-btn" href="steam://friends/status/online">Online</a>
+      <a class="status-btn" href="steam://friends/status/away">Away</a>
+      <a class="status-btn" href="steam://friends/status/invisible">Invisible</a>
+      <a class="status-btn" href="steam://friends/status/busy">Busy</a>
+      <a class="status-btn" href="steam://friends/status/play">Looking to
+        Play</a>
+      <a class="status-btn" href="steam://friends/status/trade">Looking to
+        Trade</a>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
